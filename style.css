@@ -460,9 +460,9 @@
     }
     
   }
-  @media (max-width: 390){
+  @media (max-width: 420){
     .ab-us-sec img{
-      max-height: 234px;
+      max-height: 250px;
     }
   }
 /* --------------------------why choose us -------------------------*/
