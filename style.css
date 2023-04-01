@@ -460,6 +460,11 @@
     }
     
   }
+  @media (max-width: 390){
+    .ab-us-sec img{
+      max-height: 234px;
+    }
+  }
 /* --------------------------why choose us -------------------------*/
 h1,
         h2,
