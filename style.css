@@ -466,12 +466,7 @@
     }
   }
 /* --------------------------why choose us -------------------------*/
-h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {}
+
         a,
         a:hover,
         a:focus,
@@ -953,7 +948,7 @@ p.service_text{
 /* ----------------------footer */
 
 .footer-sec{
-  background-color: #01518b;
+  background-color: #012851;
 }
 .footer{
   padding-bottom: 50px;
@@ -1063,4 +1058,5 @@ p.service_text{
   .foot-col3{
     width: 90%;
   }
+
 }
