@@ -33,6 +33,16 @@
     font-style: normal;
     font-weight: bold;
   }
+
+
+  /* ------------------------------- */
+  main{
+    margin-top: 70px !important;
+  }
+  header{
+    background-color: #1A0000;
+  }
+  /*  -------------------------------*/
   
   .steps-timlin{
     background-color: #f6f6f6;
@@ -435,9 +445,7 @@
   .ab-us-content h2{
     text-align: start;
   }
-  main{
-    margin-top: -130px;
-  }
+  
   @media(max-width: 768px){
     .ab-us-sec{
       flex-direction: column;
