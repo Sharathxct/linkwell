@@ -1157,3 +1157,54 @@ p.service_text{
   }
 
 }
+/* pop */
+
+.cont-pop-cont{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  width: 400px;
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+.cont-pop-cont.active{
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
+.cont-pop-cont form{
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border: 1px solid #219ebc;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0 ,0 ,0 , 0.03);
+}
+.cont-pop-cont form .form-control{
+  width: 100%;
+  height: 40px;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid silver;
+  margin: 10px 0 10px 0;
+  padding: 0 10px;
+}
+.cont-pop-cont form .heroin-btn{
+  margin-left: 35%;
+  margin-top: 24px;
+}
+.cont-pop-cont form h4{
+  text-align: center;
+  margin-bottom: 24px;
+  color: #222;
+}
+.all#all.active{
+  filter: blur(10px);
+  pointer-events: none;
+  user-select: none;
+}

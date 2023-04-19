@@ -21,6 +21,7 @@
 
 </head>
 <body>
+	<div id="all" class="all">
 	<header >
 		<div class="container">
 			
@@ -31,7 +32,7 @@
 				<a href="index.html">Home</a>
 				<a href="about.html">About</a>
 				<a href="services.html">Services</a>
-				<a href="#">Contact</a>
+				<a onclick="cont_pop()">Contact</a>
 			</nav>
 			<button class="hamburger">
 				<div class="bar"></div>
@@ -42,7 +43,7 @@
 		<a href="index.html">Home</a>
 		<a href="about.html">About</a>
 		<a href="services.html">Services</a>
-		<a href="">Contact</a>
+		<a onclick="cont_pop()">Contact</a>
 	</nav>
 
 
@@ -532,13 +533,13 @@ Our team consists of experienced loan professionals who have extensive knowledge
 		<h1>Our Partners</h1>
 		<div class="partners-in"></div>
 		<ul class="logos-partners">
-			<li><img src="assets/images/WhatsApp_Image_2023-03-25_at_8.33.11_PM-removebg-preview.png" alt=""></li>
-			<li><img src="assets/images/WhatsApp_Image_2023-03-25_at_8.33.11_PM-removebg-preview.png" alt=""></li>
-			<li><img src="assets/images/WhatsApp_Image_2023-03-25_at_8.33.11_PM-removebg-preview.png" alt=""></li>
-			<li><img src="assets/images/WhatsApp_Image_2023-03-25_at_8.33.11_PM-removebg-preview.png" alt=""></li>
-			<li><img src="assets/images/WhatsApp_Image_2023-03-25_at_8.33.11_PM-removebg-preview.png" alt=""></li>
-			<li><img src="assets/images/WhatsApp_Image_2023-03-25_at_8.33.11_PM-removebg-preview.png" alt=""></li>
-			<li><img src="assets/images/WhatsApp_Image_2023-03-25_at_8.33.11_PM-removebg-preview.png" alt=""></li>
+			<li><img src="assets/logos/1.png" alt=""></li>
+			<li><img src="assets/logos/2.png" alt=""></li>
+			<li><img src="assets/logos/4.png" alt=""></li>
+			<li><img src="assets/logos/5.png" alt=""></li>
+			<li><img src="assets/logos/6.png" alt=""></li>
+			<li><img src="assets/logos/3.png" alt=""></li>
+			<li><img src="assets/logos/7.png" alt=""></li>
 			<li><img src="assets/images/WhatsApp_Image_2023-03-25_at_8.33.11_PM-removebg-preview.png" alt=""></li>
 			<li><img src="assets/images/WhatsApp_Image_2023-03-25_at_8.33.11_PM-removebg-preview.png" alt=""></li>
 			<li><img src="assets/images/WhatsApp_Image_2023-03-25_at_8.33.11_PM-removebg-preview.png" alt=""></li>
@@ -755,7 +756,7 @@ Our team consists of experienced loan professionals who have extensive knowledge
 
 
 	</main>
-	
+</div>
 	<script >
 		window.onload = function () {
 	window.addEventListener('scroll', function (e) {
@@ -833,6 +834,36 @@ Our team consists of experienced loan professionals who have extensive knowledge
 	  });
 	  </script>
 	<div id="myButton"></div>
+
+	<div class="cont-pop-cont" id="cont-pop-cont">
+
+		<script>
+			function cont_pop(){ 
+            	var blur = document.getElementById('all')
+            	blur.classList.toggle('active')
+            	var popup = document.getElementById('cont-pop-cont');
+            	popup.classList.toggle('active');
+        }
+		</script>
+
+        <form action="">
+            <i class="fa fa-times" onclick="cont_pop()"></i>
+            <h4>Connect With Us</h4>
+            <div class="form-group">
+                <label for="">Name</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="">Message</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <input type="submit" class="heroin-btn" value="CONNECT">
+        </form>
+    </div>
 
 	
 
