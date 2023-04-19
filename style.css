@@ -42,6 +42,10 @@
   header{
     background-color: #12002F;
   }
+
+  .mobile-nav a{
+    color: #fff !important;
+  }
   /*  -------------------------------*/
   
   .steps-timlin{
